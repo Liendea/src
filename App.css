@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e2e2e2;
+  height: auto;
+  margin-bottom: 5rem;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+}
+
+.main {
+  width: 90%;
+  padding: 1rem 4rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Post-Buttons {
+  width: 100%;
+  margin-top: 3rem;
+  display: flex;
+  gap: 2rem;
+}
+
+@media (max-width: 900px) {
+  .main {
+    padding: 1rem 2rem 1rem 1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .Post-Buttons {
+    flex-direction: column;
+  }
+}
