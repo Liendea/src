@@ -1,7 +1,8 @@
 import "./App.css";
 import Navbar from "../src/Components/Navbar/Navbar.jsx";
 import Sidebar from "../src/Components/Sidebar/Sidebar.jsx";
-import Main from "../src/Components/Main/Main.jsx";
+import Hero from "../src/Components/Hero/Hero.jsx";
+import Footer from "../src/Components/Footer/Footer.jsx";
 
 function App() {
   return (
@@ -9,8 +10,9 @@ function App() {
       <Navbar></Navbar>
       <div className="content">
         <Sidebar></Sidebar>
-        <Main></Main>
+        <Hero></Hero>
       </div>
+      <Footer></Footer>
     </div>
   );
 }
